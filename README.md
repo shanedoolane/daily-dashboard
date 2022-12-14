@@ -1,27 +1,32 @@
-# duckduckgo-newtab
+# daily-dashboard
 
-A new tab override page extension for Google Chrome.
+A hacked version of the new tab override page extension for Google Chrome.
 
-I'm releasing this on GitHub only. Maybe some developer will want to release it to the Web Store.
+This chrome extension should allow you to run a custom HTML page at startup and new tab. Page loads extremely fast.
+### Long Term Goals
+1. Hot keys for commonly used links
+2. More robust method to add links/better UI
+3. Add some pyscript calls to include some useful data or infomatics
 
-You can install this extension with the following steps:
+## Build Your Dashboard
+1. Use: [`html-online.com`](https://github.com/jimschubert/NewTab-Redirect) to build your HTML file
+2. Click on `Releases` on GitHub  
+3. Download version `Latest Release` and unzip to some directory on your computer
+3. Save the HTML file to `/daily-dashboard/` as `override.html`
 
-1. Click on `Releases` on GitHub  
-2. Download version `v1.0` and unzip to some directory on your computer  
-3. navigate to `chrome://extensions/`  
-4. check `Developer mode`  
-5. Click `Load Unpacked Extension...`  
-6. Select the directory from step 2  
-7. Uncheck `Developer mode`
 
-## Can you highlight or remove https://duckduckgo.com from the address bar?
+## Install the Extension
 
-No. It's not possible.
+1. navigate to [`chrome://extensions/`](chrome://extensions/)
+2. check `Developer mode`  
+3. Click `Load Unpacked Extension...`  
+4. Select the directory from step   
+5. Uncheck `Developer mode` (I think this keeps things safer)
 
 # NOTE
 
-Yes, I'm the [New Tab Redirect](https://github.com/jimschubert/NewTab-Redirect) developer. No, I will not accept donations for this extension. Nor will I entertain offers to sell this extension or integrate your code into this extension. I am explicitly *not* publishing this to the Web Store because I don't want to be hassled by 'buyers' or 'marketers'.  My only goal is to give people a way to make their lives easier.
+This was hacked over from [New Tab Redirect](https://github.com/jimschubert/NewTab-Redirect)
 
 # License
 
-[MIT License](http://bit.ly/mit-license)
+who cares
