@@ -3,7 +3,7 @@
 A hacked version of the new tab override page extension for Google Chrome.
 
 This chrome extension should allow you to run a custom HTML page at startup and new tab. Page loads extremely fast.
-### Long Term Goals
+#### Long Term Goals
 1. Hot keys for commonly used links
 2. More robust method to add links/better UI
 3. Add some pyscript calls to include some useful data or infomatics
@@ -23,10 +23,10 @@ This chrome extension should allow you to run a custom HTML page at startup and 
 4. Select the directory from step   
 5. Uncheck `Developer mode` (I think this keeps things safer)
 
-# NOTE
+## NOTE
 
 This was hacked over from [New Tab Redirect](https://github.com/jimschubert/NewTab-Redirect)
 
-# License
+## License
 
 who cares
