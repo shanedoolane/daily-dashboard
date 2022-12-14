@@ -9,7 +9,7 @@ This chrome extension should allow you to run a custom HTML page at startup and 
 3. Add some pyscript calls to include some useful data or infomatics
 
 ## Build Your Dashboard
-1. Use: [`html-online.com`](https://github.com/jimschubert/NewTab-Redirect) to build your HTML file
+1. Use: [`html-online.com`](https://html-online.com/editor/) to build your HTML file
 2. Click on `Releases` on GitHub  
 3. Download version `Latest Release` and unzip to some directory on your computer
 3. Save the HTML file to `/daily-dashboard/` as `override.html`
