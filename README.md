@@ -5,6 +5,7 @@ A hacked version of the new tab override page extension for Google Chrome.
 This chrome extension should allow you to run a custom HTML page at startup and new tab. Page loads extremely fast.
 #### Long Term Goals
 1. Hot keys for commonly used links
+   2. https://github.com/r2vq/StartPage
 2. More robust method to add links/better UI
 3. Add some pyscript calls to include some useful data or infomatics
 
